@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<title> Policies </title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+.header {
+  background-color: lightblue;
+  padding: 15px;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Policies</h1>
+  <p>We do our best to meet your needs</p>
+</div>
+
+
+
+<div class="row">
+  <div class="column">
+    <h2>Fiancing</h2>
+    <p>We accept cash and credit cards</p>
+  </div>
+  
+  <div class="column">
+    <h2>Delivery</h2>
+    <p>We offer free delivery to any costomers that live 30 minutes or under to the shop, delivery is still available to those outside of 30 minutes with a fee of ten dollars.</p>
+  </div>
+  
+  <div class="column">
+    <h2>Return Policy</h2>
+    <p>Returns are available within the first 15 days of purchase</p>
+  </div>
+</div>
+
+</body>
+
+</html> 

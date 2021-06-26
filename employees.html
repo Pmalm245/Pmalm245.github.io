@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<title> The Team </title>
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Meet Our Wonderful Team</h1>
+ 
+</div>
+
+
+
+<div class="row">
+  <div class="column">
+    <h2>Greg Jennings</h2>
+    <p><img src="greg.png" alt="greg"><b>Head Carpenter</b> Greg has been with us for 4 years doing amazing work and can be contacted at #603-481-3698</p>
+  </div>
+  
+  <div class="column">
+    <h2>Sarah Cloverfield</h2>
+    <p><img src="sarah.png" alt="sarah"> <b>Head Saleswoman</b> Sarah has been the head saleswoman for 2 years and is in charge of managing the training of the new employees, she can be contacted at #603-563-2605</p>
+  </div>
+  
+  <div class="column">
+    <h2>Loran Smith</h2>
+    <p><img src="loran.png" alt="loran"><b>Accountant</b> Loran is approaching her second year as our accountant and can be contacted at #603-480-5649</p>
+  </div>
+</div>
+
+</body>
+</html>
